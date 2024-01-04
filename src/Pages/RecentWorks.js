@@ -3,6 +3,8 @@ import { Button } from "@mui/material";
 
 import NavBar from './../Components/navbar/Navbar';
 
+import './../CSS/XS.css'
+
 const RecentWorks = () => {
   return (
     <div>
