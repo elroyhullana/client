@@ -1,0 +1,544 @@
+@media only screen and (min-width: 1200px) {
+    .sticky {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        margin-right: 20px;
+        margin-bottom: 25px;
+        text-align: right;
+        z-index: 1000;
+        background-color: #DE9E48;
+        /* Set background color for the entire sticky element */
+    }
+
+    .sticky:hover {
+        opacity: 50%;
+    }
+
+    .sticky-content {
+        display: flex;
+        /* Use flexbox to align items horizontally */
+        align-items: center;
+        /* Center items vertically within the flex container */
+    }
+
+    .sticky-content a {
+        text-decoration: none;
+        /* Remove underline from the anchor tag */
+        color: white;
+        /* Set text color */
+        display: flex;
+        /* Use flexbox to align items horizontally within the anchor */
+    }
+
+    .sticky h1 {
+        font-size: 15px;
+        padding: 5px;
+        /* Combine padding-top and padding-bottom into a shorthand */
+        margin-right: 10px;
+        /* Add spacing between text and icon */
+        margin-left: 20px;
+    }
+
+    .sticky img {
+        height: 30px;
+        /* Adjust the height of the image as needed */
+        margin-top: 11px;
+        margin-right: 20px;
+    }
+
+    .bgIntro {
+        background-color: #372C2E;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .bgIntro img {
+        margin-right: 950px;
+    }
+
+    .introName {
+        color: white;
+        position: absolute;
+        left: 950px;
+        top: 300px;
+    }
+
+    .introNameRecent {
+        color: white;
+        position: absolute;
+        left: 710px;
+        top: 700px;
+        font-family: Tahoma;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+    .introName h1 {
+        font-size: 50px;
+    }
+
+    .introName p {
+        font-size: 40px;
+        font-style: "italic";
+    }
+
+    .bio {
+        background-image: url('./../../public/Images/pattern-2.png');
+        background-size: contain;
+        background-position: center;
+    }
+
+    .bio-container {
+        display: flex;
+        flex-wrap: wrap;
+        /* Allow the content to wrap onto the next line if necessary */
+        align-items: center;
+        /* Center items vertically within the flex container */
+        margin-top: 70px;
+        margin-bottom: 70px;
+
+    }
+
+    .bio-container p {
+        margin-left: 100px;
+        /* Add some spacing between the paragraph and the image */
+        flex: 1;
+        padding-bottom: 200px;
+        padding-top: 200px;
+    }
+
+    .bio-container img {
+        max-width: 100%;
+        /* Ensure the image doesn't exceed the container width */
+        margin-left: 400px;
+        border-style: solid;
+        border-width: 5px;
+        border-color: #563727;
+    }
+
+    .content {
+        background-color: #edf0f0;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        margin-top: -70px;
+    }
+
+    .imageContainer {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 500px;
+    }
+
+    .imageContainer img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .footer {
+        background-color: #563727;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer-logo img {
+        width: 400px;
+        height: auto;
+        margin-left: 500px;
+    }
+
+    .socialMediaIcons {
+        display: flex;
+        margin-right: 600px;
+    }
+
+    .socialMediaIcons img {
+        margin-right: 30px;
+        width: 30px;
+        height: auto;
+    }
+
+    .worksTitle {
+        text-align: center;
+        /* Align the work title in the center */
+        margin-top: 100px;
+        margin-bottom: 40px;
+        /* Add margin for spacing */
+        color: #563727;
+    }
+
+    .works {
+        display: flex;
+        justify-content: center;
+        /* Center align the cards */
+    }
+
+    .workCard {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-right: 20px;
+        /* Adjust the margin between cards as needed */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 50px;
+        margin-bottom: 100px;
+    }
+
+    .workCard p {
+        text-align: center;
+        font-weight: bolder;
+        font-size: 20px;
+        color: #563727;
+    }
+
+    .workCard:first-child {
+        margin-left: 20px;
+        /* Set a margin on the left side of the first card */
+    }
+
+    .workCard:last-child {
+        margin-right: 20px;
+        /* Set a margin on the right side of the last card */
+    }
+
+    .workCard img {
+        width: 400px;
+        /* Make the image fill the container */
+        height: auto;
+        display: block;
+    }
+
+    .contentWorks {
+        background-color: #f9f9f9; /* Light gray background color */
+        padding: 50px 0; /* Add padding for space around the content */
+        text-align: center; /* Center-align the content */
+    }    
+    
+    .workArea {
+        margin: 0 auto;
+        max-width: 1200px;
+        
+    }    
+
+    .worktext {
+        padding: 20px;
+    }
+    
+    .worktext p {
+        font-size: 14px; /* Adjust font size */
+        color: #555; /* Darker text color for better contrast */
+        line-height: 1.6; /* Improve line height for readability */
+    }
+    
+    .worktext h1 {
+        font-size: 24px; /* Adjust heading font size */
+        color: #333; /* Darker heading color */
+    }       
+
+    .recentCard {
+        border: 1px solid #e0e0e0; /* Lighter border color */
+        border-radius: 15px; /* Increase border-radius for rounded corners */
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Enhance the shadow effect */
+        margin-bottom: 50px; /* Adjust spacing between cards */
+        margin-top: 50px;
+        background-color: #fff; /* Add a white background color */
+    }     
+
+    .recentCard img {
+        width: 100%;
+        height: 800px; /* Adjust the height according to your preference */
+        object-fit: cover; /* Maintain aspect ratio */
+        border-radius: 10px; /* Add rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    }    
+
+    .viewButton {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .viewButton Button {
+        border: 1px;
+        border-width: 3px;
+        border-style: solid;
+        padding: 15px;
+        border-color: #563727;
+        color: #563727;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .sticky {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        margin-right: 20px;
+        margin-bottom: 25px;
+        text-align: right;
+        z-index: 1000;
+        background-color: #DE9E48;
+        /* Set background color for the entire sticky element */
+    }
+
+    .sticky:hover {
+        opacity: 50%;
+    }
+
+    .sticky-content {
+        display: flex;
+        /* Use flexbox to align items horizontally */
+        align-items: center;
+        /* Center items vertically within the flex container */
+    }
+
+    .sticky-content a {
+        text-decoration: none;
+        /* Remove underline from the anchor tag */
+        color: white;
+        /* Set text color */
+        display: flex;
+        /* Use flexbox to align items horizontally within the anchor */
+    }
+
+    .sticky h1 {
+        font-size: 10px;
+        padding: 5px;
+        /* Combine padding-top and padding-bottom into a shorthand */
+        margin-right: 10px;
+        /* Add spacing between text and icon */
+        margin-left: 20px;
+    }
+
+    .sticky img {
+        height: 20px;
+        /* Adjust the height of the image as needed */
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+
+    .bgIntro {
+        background-color: #372C2E;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .bgIntro img {
+        width: 300px;
+        height: 450px;
+        margin-right: 350px;
+    }
+
+    .introName {
+        color: white;
+        position: absolute;
+        left: 140px;
+        top: 250px;
+    }
+
+    .introName h1 {
+        font-size: 20px;
+    }
+
+    .introName p {
+        font-size: 10px;
+        font-style: "italic";
+    }
+
+    .bio {
+        background-image: url('./../../public/Images/pattern-2.png');
+        background-size: cover;
+        background-position: center;
+        transform: scaleY(-1);
+    }
+
+    .bio-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* Center items horizontally within the flex container */
+        transform: scaleY(-1);
+    }
+
+    .bio-container p {
+        font-size: 10px;
+        margin-bottom: 60px;
+        /* Adjust as needed */
+    }
+
+    .bio-container img {
+        width: 100px;
+        height: auto;
+        margin: auto 0;
+        border-style: solid;
+        border-width: 3px;
+        border-color: #563727;
+        margin-top: 80px;
+    }
+
+    .content {
+        background-color: #edf0f0;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .imageContainer {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 60px;
+    }
+
+    .imageContainer img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .footer {
+        background-color: #563727;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer-logo {
+        order: 1;
+        margin-bottom: 20px;
+    }
+
+    .footer-logo img {
+        width: 200px;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .socialMediaIcons {
+        display: flex;
+        order: 0;
+        padding-top: 50px;
+        margin-left: 10px;
+    }
+
+    .socialMediaIcons img {
+        width: 20px;
+        height: auto;
+        margin-right: 15px;
+    }
+
+    .bodyContent {
+        text-align: center;
+        /* Center align the cards within the section */
+    }
+
+    .worksTitle {
+        text-align: center;
+        /* Align the work title in the center */
+        margin-top: 100px;
+        margin-bottom: 40px;
+        /* Add margin for spacing */
+        color: #563727;
+        font-size: 10px;
+    }
+
+    .works {
+        display: flex;
+        justify-content: center;
+        /* Center align the cards */
+        flex-direction: column;
+    }
+
+    .workCard {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 100px;
+        text-align: center;
+        /* Center align the content within the card */
+    }
+
+    .workCard {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .workCard p {
+        text-align: center;
+        font-weight: bolder;
+        font-size: 15px;
+        color: #563727;
+    }
+
+    .workCard:first-child {
+        margin-left: 40px;
+    }
+
+    .workCard:last-child {
+        margin-right: 40px;
+    }
+
+    .workCard img {
+        max-width: 100%;
+        /* Make the image responsive within the container */
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        /* Center the image horizontally within the card */
+    }
+
+    .workArea {
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    .worktext p {
+        font-size: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .recentCard {
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 100px;
+        margin-top: 100px;
+        justify-content: center;
+    }
+
+    .recentCard img {
+        height: auto;
+        width: 350px;
+    }
+
+    .viewButton {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .viewButton Button {
+        border: 1px;
+        border-width: 2px;
+        border-style: solid;
+        padding: 10px;
+        border-color: #563727;
+        color: #563727;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: small;
+    }
+}
