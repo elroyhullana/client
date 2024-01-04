@@ -84,7 +84,7 @@ const Home = () => {
 
             <section className='bodyContent'>
                 <div className='worksTitle'>
-                    <h1>SOME OF MY LATEST WORKS</h1>
+                    <h1>SOME OF MY WORKS</h1>
                 </div>
 
                 <div className='works'>
