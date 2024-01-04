@@ -3,7 +3,12 @@ import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
 
 import NavBar from './../Components/navbar/Navbar';
-import './../CSS/HomeCss.css'
+
+import './../CSS/XS.css'
+import './../CSS/S.css'
+import './../CSS/M.css'
+import './../CSS/L.css'
+import './../CSS/XL.css'
 
 const Home = () => {
     return (
