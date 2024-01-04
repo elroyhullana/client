@@ -345,16 +345,16 @@
     .introName {
         color: white;
         position: absolute;
-        left: 140px;
+        left: 130px;
         top: 250px;
     }
 
     .introName h1 {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .introName p {
-        font-size: 10px;
+        font-size: 15px;
         font-style: "italic";
     }
 
@@ -374,9 +374,9 @@
     }
 
     .bio-container p {
-        font-size: 10px;
+        font-size: 11px;
         margin-bottom: 60px;
-        /* Adjust as needed */
+        font-weight: bold;
     }
 
     .bio-container img {
