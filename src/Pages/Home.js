@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import NavBar from './../Components/navbar/Navbar';
 import EmailForm from './../Components/EmailForm';
 
@@ -9,9 +9,32 @@ import './../CSS/L.css'
 import './../CSS/XL.css'
 
 const Home = () => {
+    const topFunction = () => {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+    };
+
+    // Attach event listener for scrolling
+    useEffect(() => {
+        window.onscroll = function () {
+            // Show the button when the user scrolls down 20px from the top
+            const btn = document.getElementById('myBtn');
+            if (btn) {
+                btn.style.display = document.body.scrollTop > 20 || document.documentElement.scrollTop > 20 ? 'block' : 'none';
+            }
+        };
+    }, []);
+
     return (
         <div>
             <NavBar />
+
+            <button onClick={topFunction} id="myBtn" title="Go to top">
+                <img
+                src='/icons/arrow.png'
+                alt='arrow'
+                />
+            </button>
 
             <div className='sticky'>
                 <div className='sticky-content'>
