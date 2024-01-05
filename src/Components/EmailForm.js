@@ -19,7 +19,39 @@ const EmailForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // Your form submission logic here
+    
+    // Create a FormData object to send the form data
+    const formData = new FormData();
+    formData.append('name', name);
+    formData.append('email', email);
+    formData.append('message', message);
+
+    // Use the Formspree endpoint for your form
+    const formEndpoint = 'https://formspree.io/your-form-id';
+
+    try {
+      // Make a POST request to Formspree
+      const response = await fetch(formEndpoint, {
+        method: 'POST',
+        body: formData,
+        headers: {
+          Accept: 'application/json',
+        },
+      });
+
+      // Check if the request was successful
+      if (response.ok) {
+        console.log('Email sent successfully!');
+        // Optionally, reset the form fields
+        setName('');
+        setEmail('');
+        setMessage('');
+      } else {
+        console.error('Failed to send email.');
+      }
+    } catch (error) {
+      console.error('Error sending email:', error);
+    }
   };
 
   return (
