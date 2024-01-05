@@ -82,6 +82,8 @@ const EmailForm = () => {
           onChange={handleMessageChange}
           required
           placeholder="Your Message"
+          rows="10"
+          cols="30"
         />
       </label>
       <button type="submit">Send Message</button>

@@ -229,7 +229,7 @@ const Home = () => {
 
             <section className='contactMeArea' id='contactMeArea'>
                 <div className='contact-card'>
-                    <h1>Contact Me</h1>
+                    <h1>ℂ𝕠𝕟𝕥𝕒𝕔𝕥 𝕄𝕖</h1>
                     <EmailForm />
                 </div>
             </section>
