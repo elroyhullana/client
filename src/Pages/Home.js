@@ -1,8 +1,6 @@
 import React from 'react'
-import { Button } from "@mui/material";
-import { Link } from "react-router-dom";
-
 import NavBar from './../Components/navbar/Navbar';
+import EmailForm from './../Components/EmailForm';
 
 import './../CSS/XS.css'
 import './../CSS/S.css'
@@ -44,7 +42,7 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className='bio'>
+            <section className='bio' id='bio'>
                 <div className='bio-container'>
                     <img
                         src="/Images/my-pic.png"
@@ -87,52 +85,94 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className='bodyContent'>
+            <section className='bodyContent' id='bodyContent'>
                 <div className='worksTitle'>
-                    <h1>SOME OF MY WORKS</h1>
+                    <h1>RECENT WORKS</h1>
                 </div>
 
                 <div className='works'>
                     <div className='workCard'>
                         <img
-                            src='/Images/checkuppoint-preview.png'
+                            src='/works/checkuppoint-removed.png'
                             alt="workPicture"
                         />
-                        <p>
+                        <p className="workCategory">Web and Mobile Development</p>
+                        <p className='workTitle'>
                             CheckUppoint
                         </p>
                     </div>
 
                     <div className='workCard'>
                         <img
-                            src='/Images/strack-preview.png'
+                            src='/works/strack-removed.png'
                             alt="workPicture"
                         />
-                        <p>
+
+                        <p className="workCategory">Web Development</p>
+                        <p className='workTitle'>
                             STrack
                         </p>
                     </div>
 
                     <div className='workCard'>
                         <img
-                            src='/Images/travel-preview.png'
+                            src='/works/travel-removed.png'
                             alt="workPicture"
                         />
-                        <p>
+
+                        <p className="workCategory">Web Development</p>
+                        <p className='workTitle'>
                             tRAVEl
                         </p>
                     </div>
-                </div>
 
-                <div className='viewButton'>
-                    <Button>
-                        <Link
-                            to="/recentworks"
-                            style={{ textDecoration: "none", color: "#563727" }}
-                        >
-                            VIEW MORE WORKS
-                        </Link>
-                    </Button>
+                    <div className='workCard'>
+                        <img
+                            src='/works/fit-x-removed.png'
+                            alt="workPicture"
+                        />
+
+                        <p className="workCategory">Web Development</p>
+                        <p className='workTitle'>
+                            Fit-X
+                        </p>
+                    </div>
+
+                    <div className='workCard'>
+                        <img
+                            src='/works/curall-removed.png'
+                            alt="workPicture"
+                        />
+
+                        <p className="workCategory">Web and Mobile Prototype</p>
+                        <p className='workTitle'>
+                            CURALL
+                        </p>
+                    </div>
+
+                    <div className='workCard'>
+                        <img
+                            src='/works/aquariadepot-removed.png'
+                            alt="workPicture"
+                        />
+
+                        <p className="workCategory">Web Object Oriented Application</p>
+                        <p className='workTitle'>
+                            AquariaDepot
+                        </p>
+                    </div>
+
+                    <div className='workCard'>
+                        <img
+                            src='/works/geomaps-removed.png'
+                            alt="workPicture"
+                        />
+
+                        <p className="workCategory">Mobile Prototype</p>
+                        <p className='workTitle'>
+                            GeoMaps
+                        </p>
+                    </div>
                 </div>
             </section>
 
@@ -157,6 +197,13 @@ const Home = () => {
                         src="/icons/xd.png"
                         alt="headerLogo"
                     />
+                </div>
+            </section>
+
+            <section className='contactMeArea' id='contactMeArea'>
+                <div className='contact-card'>
+                    <h1>Contact Me</h1>
+                    <EmailForm />
                 </div>
             </section>
 
