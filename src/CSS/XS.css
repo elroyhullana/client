@@ -108,7 +108,12 @@
     }
 
     .content {
-        background-color: #edf0f0;
+        background-image: url('./../../public/Images/bg-wood.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        /* Set the background to be fixed during scrolling */
+        background-position: center;
+        background-repeat: no-repeat;
         padding-top: 50px;
         padding-bottom: 50px;
     }
