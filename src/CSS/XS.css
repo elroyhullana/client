@@ -330,4 +330,14 @@
         color: white;
         font-weight: bold;
       }
+
+      /*QUOTE*/
+      .quote {
+        background-color: #DE9E48;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        text-align: center;
+        font-size: 10px;
+        color: #372C2E;
+      }
 }

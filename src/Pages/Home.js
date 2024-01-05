@@ -200,6 +200,10 @@ const Home = () => {
                 </div>
             </section>
 
+            <section className='quote'>
+                <h1>"𝕃𝕚𝕧𝕚𝕟𝕘 𝕠𝕟 𝕥𝕙𝕖 𝕖𝕕𝕘𝕖 𝕚𝕤 𝕨𝕙𝕖𝕟 𝕪𝕠𝕦 𝕕𝕖𝕔𝕚𝕕𝕖 𝕟𝕠𝕥 𝕥𝕠 𝕦𝕤𝕖 𝕧𝕖𝕣𝕤𝕚𝕠𝕟 𝕔𝕠𝕟𝕥𝕣𝕠𝕝 𝕗𝕠𝕣 𝕒 𝕡𝕖𝕣𝕤𝕠𝕟𝕒𝕝 𝕡𝕣𝕠𝕛𝕖𝕔𝕥."</h1>
+            </section>
+
             <section className='contactMeArea' id='contactMeArea'>
                 <div className='contact-card'>
                     <h1>Contact Me</h1>
