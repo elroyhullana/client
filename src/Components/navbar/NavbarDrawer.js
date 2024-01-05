@@ -47,7 +47,7 @@ const NavbarDrawer = () => {
       </Drawer>
 
       <IconButton
-        sx={{ color: "#DE9E48", marginLeft: "70px" }}
+        sx={{ color: "#DE9E48", justifyContent: "right" }}
         onClick={() => setOpenDrawer(!openDrawer)}
       >
         <MenuIcon />
