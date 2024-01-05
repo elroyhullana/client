@@ -19,7 +19,7 @@ const EmailForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+
     // Create a FormData object to send the form data
     const formData = new FormData();
     formData.append('name', name);
@@ -27,7 +27,7 @@ const EmailForm = () => {
     formData.append('message', message);
 
     // Use the Formspree endpoint for your form
-    const formEndpoint = 'https://formspree.io/your-form-id';
+    const formEndpoint = 'https://formspree.io/f/xjvnvpdw';
 
     try {
       // Make a POST request to Formspree
