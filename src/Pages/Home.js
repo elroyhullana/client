@@ -48,22 +48,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <section className='bgIntro'>
-                <img
-                    src="/Images/pattern.png"
-                    alt="headerLogo"
-                />
-                <div className='introName'>
-                    <h1>
-                        HI, I AM EL ROY<br />
-                        A FRONT-END DEVELOPER
-                    </h1>
-                    <p>
-                        My mission is to design and develop<br />
-                        a website that will be loved by you.
-                    </p>
-                </div>
-            </section>
+            <section className='bgIntro' />
 
             <section className='bio' id='bio'>
                 <div className='bio-container'>

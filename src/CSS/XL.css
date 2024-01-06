@@ -48,14 +48,12 @@
     }
 
     .bgIntro {
-        background-color: #372C2E;
+        background-image: url('./../../public/trial/dawn-bg.png');
+        background-size: contain;
+        background-position: center;
         height: 100vh;
         display: flex;
         justify-content: center;
-    }
-
-    .bgIntro img {
-        margin-right: 950px;
     }
 
     .introName {
