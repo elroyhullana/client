@@ -1,0 +1,35 @@
+/* ConveyorBelt.css */
+.conveyor-belt-container {
+    overflow: hidden;
+  }
+  
+  .conveyor-belt {
+    display: flex;
+    animation: conveyorAnimation 8s linear infinite; /* Adjust the duration as needed */
+  }
+  
+  .conveyor-item {
+    padding: 0 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .conveyor-item.active {
+    opacity: 1;
+  }
+  
+  @keyframes conveyorAnimation {
+    0% {
+      transform: translateX(100%);
+    }
+    25% {
+      transform: translateX(0);
+    }
+    75% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
