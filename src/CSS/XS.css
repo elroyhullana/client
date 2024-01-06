@@ -372,4 +372,38 @@
         width: 24px;
         height: auto;
       }
+
+      /* ConveyorBelt.css */
+    .conveyor-belt-container {
+        overflow: hidden;
+        background-color: #FFD300;
+    }
+
+    .conveyor-belt {
+        display: flex;
+        animation: conveyorAnimation 20s linear infinite;
+        background-color: #FFD300;
+        font-size: 10px;
+        /* Adjust the duration as needed */
+    }
+
+    .conveyor-item {
+        padding: 0 10px;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+    }
+
+    .conveyor-item.active {
+        opacity: 1;
+    }
+
+    @keyframes conveyorAnimation {
+        0% {
+            transform: translateX(-100%);
+        }
+
+        100% {
+            transform: translateX(100%);
+        }
+    }
 }

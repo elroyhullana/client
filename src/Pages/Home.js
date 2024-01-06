@@ -7,6 +7,7 @@ import './../CSS/S.css'
 import './../CSS/M.css'
 import './../CSS/L.css'
 import './../CSS/XL.css'
+import ConveyorBelt from '../Components/ConveyerBelt';
 
 const Home = () => {
     const topFunction = () => {
@@ -28,6 +29,7 @@ const Home = () => {
     return (
         <div className='body'>
             <NavBar />
+            <ConveyorBelt />
 
             <button onClick={topFunction} id="myBtn" title="Go to top">
                 <img
