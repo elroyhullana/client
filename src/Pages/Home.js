@@ -26,7 +26,7 @@ const Home = () => {
     }, []);
 
     return (
-        <div>
+        <div className='body'>
             <NavBar />
 
             <button onClick={topFunction} id="myBtn" title="Go to top">

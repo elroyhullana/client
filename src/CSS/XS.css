@@ -1,4 +1,8 @@
 @media only screen and (max-width: 600px) {
+    .body {
+        background-color: #Faf9f6;
+    }
+
     .sticky {
         position: fixed;
         bottom: 0;
@@ -7,7 +11,7 @@
         margin-bottom: 25px;
         text-align: right;
         z-index: 1000;
-        background-color: #FFD300;
+        background-color: #0695FF;
         /* Set background color for the entire sticky element */
     }
 
@@ -25,7 +29,7 @@
     .sticky-content a {
         text-decoration: none;
         /* Remove underline from the anchor tag */
-        color: white;
+        color: #faf9f6;
         /* Set text color */
         display: flex;
         /* Use flexbox to align items horizontally within the anchor */
@@ -56,7 +60,7 @@
     }
 
     .introName {
-        color: white;
+        color: #faf9f6;
         position: absolute;
         left: 35%;
         top: 30%;
@@ -75,15 +79,12 @@
         background-image: url('./../../public/Images/pattern-2.png');
         background-size: cover;
         background-position: center;
-        transform: scaleY(-1);
     }
 
     .bio-container {
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* Center items horizontally within the flex container */
-        transform: scaleY(-1);
     }
 
     .bio-container p {
@@ -103,12 +104,7 @@
     }
 
     .content {
-        background-image: url('./../../public/Images/wall.png');
-        background-size: cover;
-        background-attachment: fixed;
-        /* Set the background to be fixed during scrolling */
-        background-position: center;
-        background-repeat: no-repeat;
+        background-color: #dcdcdc;
         padding-top: 50px;
         padding-bottom: 50px;
     }
@@ -172,6 +168,11 @@
     }
 
     .works {
+        background-image: url('./../../public/Images/office.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
         display: flex;
         justify-content: center;
         /* Center align the cards */
@@ -185,7 +186,8 @@
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         margin-bottom: 100px;
         text-align: center;
-        /* Center align the content within the card */
+        background-color: #Faf9f6;
+        margin-top: 80px;
     }
 
     .workCard {
@@ -272,7 +274,7 @@
     }
 
     .contact-card {
-        background-color: white;
+        background-color: #faf9f6;
         width: 600px;
         margin: 50px;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -317,7 +319,7 @@
       }
       
       button {
-        background-color: white;
+        background-color: #faf9f6;
         color: #333333;
         padding: 10px 15px;
         border: solid;
@@ -331,7 +333,7 @@
       
       button:hover {
         background-color: #333333;
-        color: white;
+        color: #faf9f6;
         font-weight: bold;
       }
 
@@ -356,7 +358,7 @@
         outline: none; /* Remove outline */
         background-color: #FFD300; /* Set a background color */
         width: 50px;
-        color: white; /* Text color */
+        color: #faf9f6; /* Text color */
         cursor: pointer; /* Add a mouse pointer on hover */
         font-size: 10px; /* Increase font size */
         justify-content: center;
