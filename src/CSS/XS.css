@@ -49,12 +49,10 @@
 
     .bgIntro {
         background-image: url('./../../public/trial/dawn-bg.png');
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 200px;
-        display: flex;
-        justify-content: center;
+        height: 20vh;
     }
 
     .introName {
