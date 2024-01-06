@@ -7,7 +7,7 @@
         margin-bottom: 25px;
         text-align: right;
         z-index: 1000;
-        background-color: #DE9E48;
+        background-color: #FFD300;
         /* Set background color for the entire sticky element */
     }
 
@@ -113,11 +113,11 @@
         margin-left: 400px;
         border-style: solid;
         border-width: 5px;
-        border-color: #563727;
+        border-color: #333333;
     }
 
     .content {
-        background-image: url('./../../public/Images/bg-wood.jpg');
+        background-image: url('./../../public/Images/wall.png');
         background-size: cover;
         background-attachment: fixed;
         /* Set the background to be fixed during scrolling */
@@ -140,7 +140,7 @@
     }
 
     .footer {
-        background-color: #563727;
+        background-color: #333333;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -167,7 +167,7 @@
         text-align: center;
         margin-top: 100px;
         margin-bottom: 40px;
-        color: #563727;
+        color: #333333;
     }
 
     .works {
@@ -197,7 +197,7 @@
         text-align: center;
         font-weight: bold;
         font-size: 20px;
-        color: #563727;
+        color: #333333;
         margin: 15px 0;
     }
 
@@ -233,7 +233,7 @@
         text-align: center;
         font-weight: bold;
         font-size: 18px;
-        color: #563727;
+        color: #333333;
         margin: 15px 0;
     }
 
@@ -312,8 +312,8 @@
         border-width: 3px;
         border-style: solid;
         padding: 15px;
-        border-color: #563727;
-        color: #563727;
+        border-color: #333333;
+        color: #333333;
         font-weight: bolder;
         text-decoration: none;
     }
@@ -365,7 +365,7 @@
         width: 100%;
         padding: 8px;
         box-sizing: border-box;
-        border-color: #372C2E;
+        border-color: #333333;
     }
 
     .message-label {
@@ -374,7 +374,7 @@
 
     button {
         background-color: white;
-        color: #372C2E;
+        color: #333333;
         padding: 10px 15px;
         border: solid;
         border-width: 2px;
@@ -384,19 +384,19 @@
     }
 
     button:hover {
-        background-color: #372C2E;
+        background-color: #333333;
         color: white;
         font-weight: bold;
     }
 
     /*QUOTE*/
     .quote {
-        background-color: #DE9E48;
+        background-color: #FFD300;
         padding-top: 25px;
         padding-bottom: 25px;
         text-align: center;
         font-size: 30;
-        color: #372C2E;
+        color: #333333;
     }
 
     /*BACK TO TOP*/
@@ -415,7 +415,7 @@
         /* Remove borders */
         outline: none;
         /* Remove outline */
-        background-color: #DE9E48;
+        background-color: #FFD300;
         /* Set a background color */
         color: white;
         /* Text color */

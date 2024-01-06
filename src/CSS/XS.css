@@ -7,7 +7,7 @@
         margin-bottom: 25px;
         text-align: right;
         z-index: 1000;
-        background-color: #DE9E48;
+        background-color: #FFD300;
         /* Set background color for the entire sticky element */
     }
 
@@ -52,7 +52,7 @@
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
-        height: 225px;
+        height: 200px;
         display: flex;
         justify-content: center;
     }
@@ -100,12 +100,12 @@
         margin: auto 0;
         border-style: solid;
         border-width: 3px;
-        border-color: #563727;
+        border-color: #333333;
         margin-top: 80px;
     }
 
     .content {
-        background-image: url('./../../public/Images/bg-wood.jpg');
+        background-image: url('./../../public/Images/wall.png');
         background-size: cover;
         background-attachment: fixed;
         /* Set the background to be fixed during scrolling */
@@ -127,7 +127,7 @@
     }
 
     .footer {
-        background-color: #563727;
+        background-color: #333333;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -169,7 +169,7 @@
         margin-top: 100px;
         margin-bottom: 40px;
         /* Add margin for spacing */
-        color: #563727;
+        color: #333333;
         font-size: 10px;
     }
 
@@ -199,7 +199,7 @@
         text-align: center;
         font-weight: bolder;
         font-size: 15px;
-        color: #563727;
+        color: #333333;
     }
 
     .workCard:first-child {
@@ -255,8 +255,8 @@
         border-width: 2px;
         border-style: solid;
         padding: 10px;
-        border-color: #563727;
-        color: #563727;
+        border-color: #333333;
+        color: #333333;
         font-weight: bold;
         text-decoration: none;
         font-size: small;
@@ -310,7 +310,7 @@
         width: 250px;
         padding: 8px;
         box-sizing: border-box;
-        border-color: #372C2E ;
+        border-color: #333333 ;
       }
       
       .message-label {
@@ -320,7 +320,7 @@
       
       button {
         background-color: white;
-        color: #372C2E;
+        color: #333333;
         padding: 10px 15px;
         border: solid;
         border-width: 1px;
@@ -332,19 +332,19 @@
       }
       
       button:hover {
-        background-color: #372C2E;
+        background-color: #333333;
         color: white;
         font-weight: bold;
       }
 
       /*QUOTE*/
       .quote {
-        background-color: #DE9E48;
+        background-color: #FFD300;
         padding-top: 25px;
         padding-bottom: 25px;
         text-align: center;
         font-size: 10px;
-        color: #372C2E;
+        color: #333333;
       }
 
       /*BACK TO TOP*/
@@ -356,7 +356,7 @@
         z-index: 99; /* Make sure it does not overlap */
         border: none; /* Remove borders */
         outline: none; /* Remove outline */
-        background-color: #DE9E48; /* Set a background color */
+        background-color: #FFD300; /* Set a background color */
         width: 50px;
         color: white; /* Text color */
         cursor: pointer; /* Add a mouse pointer on hover */

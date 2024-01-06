@@ -52,7 +52,7 @@ const Navbar = () => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <AppBar sx={{ backgroundColor: "#372C2E" }} position="static">
+      <AppBar sx={{ backgroundColor: "#333333" }} position="static">
         <Toolbar>
           <Link to="/">
             <img
@@ -89,11 +89,11 @@ const Navbar = () => {
                   marginRight: "20px",
 
                   "&:hover": {
-                    color: "#DE9E48",
+                    color: "#FFD300",
                   },
                   "&.Mui-selected": {
                     textTransform: "capitalize",
-                    color: "#DE9E48",
+                    color: "#FFD300",
                   },
                 }}
               />
@@ -113,11 +113,11 @@ const Navbar = () => {
                     marginRight: "20px",
 
                     "&:hover": {
-                      color: "#DE9E48",
+                      color: "#FFD300",
                     },
                     "&.Mui-selected": {
                       textTransform: "capitalize",
-                      color: "#DE9E48",
+                      color: "#FFD300",
                     },
                   }}
                 />
@@ -138,11 +138,11 @@ const Navbar = () => {
                     marginRight: "20px",
 
                     "&:hover": {
-                      color: "#DE9E48",
+                      color: "#FFD300",
                     },
                     "&.Mui-selected": {
                       textTransform: "capitalize",
-                      color: "#DE9E48",
+                      color: "#FFD300",
                     },
                   }}
                 />

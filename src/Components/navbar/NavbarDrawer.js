@@ -3,14 +3,14 @@ import { Drawer, IconButton, List, ListItem, ListItemText } from "@mui/material"
 import MenuIcon from "@mui/icons-material/Menu";
 
 const pages = [
-  { label: "About", link: "#bio", color: "#372C2E" },
-  { label: "Recent Works", link: "#bodyContent", color: "#372C2E" },
-  { label: "Contact", link: "#contactMeArea", color: "#372C2E" },
+  { label: "About", link: "#bio", color: "#333333" },
+  { label: "Recent Works", link: "#bodyContent", color: "#333333" },
+  { label: "Contact", link: "#contactMeArea", color: "#333333" },
 ];
 
 const linkStyle = {
   textDecoration: "none",
-  color: "#372C2E",
+  color: "#333333",
 };
 
 const textStyle = {
@@ -33,7 +33,7 @@ const NavbarDrawer = () => {
         onClose={() => setOpenDrawer(false)}
         style={{ margin: "20px" }}
       >
-        <List style={{ backgroundColor: "#DE9E48", height: "100%" }}>
+        <List style={{ backgroundColor: "#FFD300", height: "100%" }}>
           <img src="/Images/HULLANA-yellowbg.png" alt="headerLogo" style={imageStyle} />
 
           {pages.map((page, index) => (
@@ -47,7 +47,7 @@ const NavbarDrawer = () => {
       </Drawer>
 
       <IconButton
-        sx={{ color: "#DE9E48", justifyContent: "right" }}
+        sx={{ color: "#FFD300", justifyContent: "right" }}
         onClick={() => setOpenDrawer(!openDrawer)}
       >
         <MenuIcon />
