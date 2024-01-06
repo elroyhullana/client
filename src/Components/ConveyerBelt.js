@@ -4,7 +4,7 @@ import './../CSS/XL.css'
 import './../CSS/XS.css'
 
 const ConveyorBelt = () => {
-  const texts = ["𝘿𝘼𝙒𝙉  ·  𝘼 𝙒𝙀𝘽𝙎𝙄𝙏𝙀 𝙋𝙊𝙍𝙏𝙁𝙊𝙇𝙄𝙊  ·  𝘾𝙍𝙀𝘼𝙏𝙀𝘿 𝘽𝙔 𝘿𝘼𝙒𝙉 𝙀𝙇 𝙍𝙊𝙔 𝙃𝙐𝙇𝙇𝘼𝙉𝘼  ·"]; // Add your desired texts
+  const texts = ["·  𝘿𝘼𝙒𝙉  ·  𝘼 𝙒𝙀𝘽𝙎𝙄𝙏𝙀 𝙋𝙊𝙍𝙏𝙁𝙊𝙇𝙄𝙊  ·  𝘾𝙍𝙀𝘼𝙏𝙀𝘿 𝘽𝙔 𝘿𝘼𝙒𝙉 𝙀𝙇 𝙍𝙊𝙔 𝙃𝙐𝙇𝙇𝘼𝙉𝘼  ·"]; // Add your desired texts
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
